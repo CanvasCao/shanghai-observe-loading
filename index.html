@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>china-single-map</title>
+    <style type=text/css>
+        html, body {
+            background: #c40f18;
+        }
+
+        #app {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        #logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(6rem);
+            opacity: 0;
+            transition: 1s all ease  ;
+        }
+
+        #logo.show{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id='app'></div>
+    <img id='logo' width='75%' src='img/www.png'>
+</div>
+
+</body>
+</html>
